@@ -19,6 +19,7 @@
 
         <Button
             android:id="@+id/button_implicit"
+            android:onClick="handleImplicitIntent"
             android:text="@string/implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,6 +27,7 @@
 
         <Button
             android:id="@+id/button_bundle"
+            android:onClick="handleBundle"
             android:text="@string/android_bundle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,6 +36,7 @@
         <Button
             android:id="@+id/button_parcelable"
             android:text="@string/parcelable"
+            android:onClick="handleParcelabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />

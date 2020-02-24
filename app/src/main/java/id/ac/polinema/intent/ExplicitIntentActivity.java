@@ -21,6 +21,7 @@ public class ExplicitIntentActivity extends AppCompatActivity {
     }
 
     public void handleTextOutput(View view) {
-        outputText.setText(nameInput.getText());
+        String name = nameInput.getText().toString();
+        outputText.setText(name);
     }
 }
